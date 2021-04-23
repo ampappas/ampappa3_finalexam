@@ -1,0 +1,17 @@
+apply plugin: 'application'
+apply plugin: 'jacoco'
+
+mainClassName = 'newPackage.Calc'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "junit:junit:4.12"
+    implementation 'junit:junit:4.12'
+}
+
+// ToDo
+// Add code so that only the test class that passes will be used. 
+// So your build should always pass.
