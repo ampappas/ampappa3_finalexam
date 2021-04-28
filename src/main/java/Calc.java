@@ -16,8 +16,9 @@ public class Calc {
         int first=values[0];
         int sub = 0;
 
-        for (int i = 0; i < values.length; i++)
+        for (int i = 0; i < values.length; i++){
             sub += first - values[i];
+        }
 
         return sub;
     }
