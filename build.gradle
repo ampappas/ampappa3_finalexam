@@ -1,7 +1,7 @@
 apply plugin: 'application'
 apply plugin: 'jacoco'
 
-mainClassName = 'main.java.Main'
+mainClassName = 'newPackage.Calc'
 
 repositories {
     jcenter()
